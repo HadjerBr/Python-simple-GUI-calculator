@@ -1,5 +1,5 @@
 # Python-simple-GUI-calculator
-<p style="font-weight:bold">A simple calculator using Python's Tkinter</p>
+<p style="font-weight:bold;">A simple calculator using Python's Tkinter</p>
 <img
   src="calc.png"
   alt="Alt text"
