@@ -30,11 +30,11 @@ def sonuc():
 win = Tk()
 win.iconbitmap("calc1.ico")
 win.title("CALCULATOR")
-win.geometry("530x532")
+win.geometry("530x485")
 win.configure(background="light blue")
 win.resizable(0, 0)
 
-e = Text(win, height=2, width=60, bg="white", spacing1=20, spacing3=20, font=("arial 10 bold"))
+e = Text(win, height=1, width=60, bg="white", spacing1=20, spacing3=20, font=("arial 10 bold"), bd=6)
 e.grid(row=0, column=0, columnspan=4, padx = 10, pady = 53)
 
 c = Button(win, width=18, text="C", fg="red", bg= "white", pady=20, activebackground="light blue", borderwidth=1, relief=GROOVE  ,command= lambda: clear()) # we can not pass a parameter to buttons that is why we use lambda
